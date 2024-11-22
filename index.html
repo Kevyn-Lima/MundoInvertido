@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>Mundo Invertido</title>
 </head>
-<body class="light-theme" aria-label="O site estpa utilizando o tema Light" role="body">
+<body class="dark-theme" aria-label="O site estpa utilizando o tema Light" role="body">
     
     <header aria-label="Cabeçalho da página">
         <audio id="music" autoplay>
@@ -126,6 +126,13 @@
         <img src="assets/images/footer/logo.svg" alt="Logotipo DIO">
     </footer>
 
+    <script>
+        function switchTheme() {
+            document.body.classList.toggle('dark-theme');
+            document.body.classList.toggle('light-theme');
+          }
+        
+    </script>
 
 </body>
 </html>
